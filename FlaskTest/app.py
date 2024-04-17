@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 app = Flask(__name__)
 
-# Load the Iris dataset
+# Load the Iris datase
 iris = load_iris()
 iris_data = iris.data
 iris_target = iris.target
